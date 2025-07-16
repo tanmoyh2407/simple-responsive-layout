@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media screen</title>
+
+    <style>
+        .container {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .flute {
+            border: 5px solid black;
+            border-radius: 7px;
+            padding: 10px;
+        }
+
+        .flute img {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                gap: 5px;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .flute {
+            border: 3px solid black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Media screen practice for responsive</h1>
+
+    <!-- .container>.flute*12>img[src="images/flute.jpg" alt="Flute"]+h3{Flute Scale - $}+p{Price \$$0}+p>lorem20 -->
+    <div class="container">
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 1</h3>
+            <p>Price $10</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, consequatur quo quidem vel ab
+                necessitatibus maxime blanditiis voluptates. Deleniti, odit.</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 2</h3>
+            <p>Price $20</p>
+            <p>Earum inventore nobis in quaerat. Quidem, quibusdam aut sed accusantium labore doloribus nostrum eaque
+                neque dignissimos repudiandae ullam unde assumenda!</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 3</h3>
+            <p>Price $30</p>
+            <p>Ex blanditiis obcaecati eos delectus dolor dignissimos consequatur numquam facilis repellat! Dolore,
+                accusantium. Sint, at quam! Deleniti architecto aperiam nesciunt?</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 4</h3>
+            <p>Price $40</p>
+            <p>Neque, sunt incidunt placeat dignissimos aspernatur nemo, est ex commodi pariatur at quidem provident
+                eligendi quibusdam? Iste quam eveniet autem!</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 5</h3>
+            <p>Price $50</p>
+            <p>Vitae itaque eos, totam, asperiores laboriosam inventore ad unde quod similique accusamus debitis labore?
+                Alias facere voluptatibus odio exercitationem totam.</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 6</h3>
+            <p>Price $60</p>
+            <p>Quam minus optio nulla, illo aliquam nam vitae magni nesciunt quae amet quibusdam dolorem tenetur,
+                officia aperiam, recusandae sint deleniti?</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 7</h3>
+            <p>Price $70</p>
+            <p>Incidunt doloremque ratione, laudantium quasi eveniet neque eius deleniti et. Quod unde ratione magnam!
+                Possimus amet iste dolore saepe fugiat?</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 8</h3>
+            <p>Price $80</p>
+            <p>Quam deleniti quae laborum. Assumenda vero laudantium doloribus dicta quod culpa, amet, aut debitis
+                voluptatibus dolore sapiente excepturi placeat a!</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 9</h3>
+            <p>Price $90</p>
+            <p>Ipsa, tempora illo quos, deserunt pariatur saepe molestias voluptatum inventore facere possimus, odit nam
+                quisquam perspiciatis at ratione eum excepturi.</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 10</h3>
+            <p>Price $100</p>
+            <p>Blanditiis officia minus a cupiditate reiciendis ex? Perspiciatis nemo asperiores porro sequi fugiat vel
+                vitae qui quod, minima, aperiam quas.</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 11</h3>
+            <p>Price $110</p>
+            <p>Ipsum voluptatem inventore obcaecati, quos est, ad esse optio iusto dolorum tempora eligendi molestiae
+                laborum aspernatur delectus cumque fuga id!</p>
+        </div>
+        <div class="flute">
+            <img src="images/flute.jpg" alt="Flute">
+            <h3>Flute Scale - 12</h3>
+            <p>Price $120</p>
+            <p>Earum voluptatum assumenda, placeat ad harum alias sapiente qui praesentium ducimus eius voluptates
+                facere ipsam, officia vero iure. Quia, magni.</p>
+        </div>
+    </div>
+</body>
+
+</html>
